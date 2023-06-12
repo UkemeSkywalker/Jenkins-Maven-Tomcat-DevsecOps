@@ -1,3 +1,4 @@
+#jenkins
 pipeline {
     agent any
     tools {
@@ -7,6 +8,7 @@ pipeline {
         stage ("Initialize") {
             steps{
                 sh '''
+                    
                     echo "PATH = ${PATH}"
                     echo "M2_HOME = ${PATH}"
 
