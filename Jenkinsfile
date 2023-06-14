@@ -23,7 +23,8 @@ pipeline {
             steps{
                 sshagent(['tomcat']) {
                     sh 'sudo -i'
-                    sh 'echo pwd'
+                    def currentDirectory = pwd()
+                    echo "Current Directory: ${currentDirectory}"
                     // sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@23.23.255.135:root/prod/apache-tomcat-9.0.76/webapps/webapp.war'
 
                 }
