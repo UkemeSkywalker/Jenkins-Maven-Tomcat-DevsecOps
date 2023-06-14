@@ -23,7 +23,7 @@ pipeline {
             steps{
                 sshagent(['tomcat']) {
                     sh 'whoami'
-                    sh 'sudo -i'
+                    sh 'sudo su -'
                     sh 'whoami'
                     // sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@23.23.255.135:root/prod/apache-tomcat-9.0.76/webapps/webapp.war'
 
