@@ -24,8 +24,8 @@ pipeline {
                 sshagent(['tomcat']) {
                     // // new update check
                     sh '''
-                        echo "jenkins ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
-                        sudo scp -o StrictHostKeyChecking=no target/*.war ubuntu@23.23.255.135:prod/apache-tomcat-9.0.76/webapps/webapp.war
+                        // echo "jenkins ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+                        scp -o StrictHostKeyChecking=no target/*.war ubuntu@23.23.255.135:/prod/apache-tomcat-9.0.76/webapps/webapp.war
                     '''
                 }
             }
