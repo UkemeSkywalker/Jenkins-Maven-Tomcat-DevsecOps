@@ -21,10 +21,11 @@ pipeline {
         }
         stage ('Deploy-to-Tomcat') {
             steps{
-                sshagent(['tomcat']) {
-                    def file_path = '/var/lib/jenkins/workspace/Webapp-ci-cd-project/target'
-                    sh 'scp -o StrictHostKeyChecking=no ${file_path}/*.war ubuntu@23.23.255.135:prod/apache-tomcat-9.0.76/webapps/webapp.war'
-
+                script {
+                        def file_path = '/var/lib/jenkins/workspace/Webapp-ci-cd-project/target'
+                        sshagent(['tomcat']) {
+                            sh 'scp -o StrictHostKeyChecking=no ${file_path}/*.war ubuntu@23.23.255.135:prod/apache-tomcat-9.0.76/webapps/webapp.war'
+                        }
                 }
             }
         }
