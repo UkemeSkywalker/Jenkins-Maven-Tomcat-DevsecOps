@@ -22,13 +22,8 @@ pipeline {
         stage ('Deploy-to-Tomcat') {
             steps{
                 sshagent(['tomcat']) {
-                    sh 'whoami'
-                    sh 'sudo su -'
-                    sh 'whoami'
-                    // new update check
-                    
-
-                    // sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@23.23.255.135:root/prod/apache-tomcat-9.0.76/webapps/webapp.war'
+                    def file_path = '/var/lib/jenkins/workspace/Webapp-ci-cd-project/target'
+                    sh 'scp -o StrictHostKeyChecking=no ${file_path}/*.war ubuntu@23.23.255.135:prod/apache-tomcat-9.0.76/webapps/webapp.war'
 
                 }
             }
