@@ -22,14 +22,11 @@ pipeline {
         stage ('Deploy-to-Tomcat') {
             steps{
                 sshagent(['tomcat']) {
-                    // sh 'whoami'
-                    // sh 'sudo su -'
-                    // sh 'whoami'
                     // // new update check
-                    
-
-                    sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@23.23.255.135:prod/apache-tomcat-9.0.76/webapps/webapp.war'
-
+                    sh '''
+                     
+                        sudo scp -o StrictHostKeyChecking=no target/*.war ubuntu@23.23.255.135:prod/apache-tomcat-9.0.76/webapps/webapp.war
+                    '''
                 }
             }
         }
