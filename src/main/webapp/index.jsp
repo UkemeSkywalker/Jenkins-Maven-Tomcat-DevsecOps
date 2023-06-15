@@ -23,7 +23,7 @@
 
 <body class="d-flex h-100 text-center text-bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
+        <header class="mb-5">
             <div>
                 <h3 class="float-md-start mb-0">Tech Fusion</h3>
             </div>
@@ -37,10 +37,13 @@
                 <h1>Tech Fusion</h1>
                 <p class="lead">Exploring the Future of Technology</p>
                 <p class="lead ">
-                    <a href="/" class="btn btn-lg btn-light fw-bold border-white bg-white"> Join</a>
+                    <a href="/" class="btn btn-lg btn-light fw-bold border-white bg-white"> Join Us</a>
                 </p>
             </div>
         </main>
+        <footer class="mt-auto text-white-50">
+            <p>"Tech Fusion by" <a href="https://www.ukeme.us/" class="text-white">ukeme.us</a></p>
+        </footer>
     </div>
 
 <!-- Bootstrap core JavaScript
