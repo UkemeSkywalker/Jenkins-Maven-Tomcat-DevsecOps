@@ -41,12 +41,6 @@
         </main>
     </div>
 
-    <footer>
-        <p>&copy; Ukeme.Us | TechFusion 2023</p>
-    </footer>
-
-
-
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
