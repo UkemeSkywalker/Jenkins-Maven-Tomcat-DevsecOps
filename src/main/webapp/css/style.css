@@ -5,6 +5,12 @@ body{
     background-size: cover;
 }
 
+.form-border-color{
+    border: 2px solid !important;
+    border-image: linear-gradient(to right, gold, purple) 4 !important;
+    border-image-slice: 1 !important;
+}
+
 .form-glass{
     background: rgba(255, 255, 255, 0.28);
     border-radius: 16px;
@@ -14,8 +20,3 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.form-border-colorl{
-    border: 2px solid !important;
-    border-image: linear-gradient(to right, gold, purple) 4 !important;
-    border-image-slice: 1 !important;
-}
