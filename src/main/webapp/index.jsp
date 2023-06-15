@@ -61,26 +61,26 @@
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Expert Reviews & Recommendations</h2>
+            <p>Unbiased insights for informed decisions on the best tech products. </p>
+            <p><a class="btn btn-default" href="#" role="button">Explore Top Tech</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Latest Tech News & Insights</h2>
+            <p>Stay updated with breaking news, trends, and analysis from the tech world. </p>
+            <p><a class="btn btn-default" href="#" role="button">Read Tech News</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Smart Lifestyle Solutions</h2>
+            <p>Transform your daily life with innovative and connected tech solutions.</p>
+            <p><a class="btn btn-default" href="#" role="button">Upgrade Your Life</a></p>
         </div>
     </div>
 
     <hr>
 
     <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Ukeme.Us | TechFusion 2023</p>
     </footer>
 </div> <!-- /container -->
 
