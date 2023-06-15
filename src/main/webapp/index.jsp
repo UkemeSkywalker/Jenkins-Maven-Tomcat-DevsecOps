@@ -36,8 +36,8 @@
         <main>
             <div class="row align-items-center g-lg-5 py-5" >
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h1>Welcome to <br>Tech Fusion</h1>
-                    <p class="col-lg-10 fs-4">Exploring the Future of Technology</p>
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Tech Fusion, Unlock your tech potential </h1>
+                    <p class="col-lg-10 fs-4">Stay at the forefront of the rapidly evolving tech landscape with our comprehensive coverage of the latest news, trends, and insights.</p>
                 </div>
                 <div class="col-md-10 mx-auto col-lg-5">
                     <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
