@@ -22,82 +22,35 @@
 </head>
 
 <body>
-
-<div class="container">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <div class="col-md-3 mb-2 mb-md-0">
-            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">TF</a>
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">Tech Fusion</a>
         </div>
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li>Home</li>
-            <li>Features</li>
+            <li class="nav-link px-2 link-secondary">Home</li>
+            <li class="nav-link px-2 link-secondary">Features</li>
         </ul>
         <div class="col-md-3 text-end">
             <button type="button" class="btn btn-primary">Sign-up</button>
             <button type="button" class="btn btn-outline-primary me-2">Login</button>
         </div>
     </header>
-</div>
-<!-- <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">TechFusion</a>
+    <main>
+        <div class="px-3 bd-masthead" id="content">
+            <h1>Tech Fusion</h1>
+            <p class="lead">Exploring the Future of Technology</p>
+            <p class="lead">Join</p>
         </div>
-        <div class="navbar-collapse collapse">
-            <form class="navbar-form navbar-right" role="form">
-                <div class="form-group">
-                    <input type="text" placeholder="Email" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Password" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Sign in</button>
-            </form>
-        </div><!--/.navbar-collapse -->
-    </div>
-</div> -->
+    </main>
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-    <div class="container">
-        <h1>Tech Fusion2</h1>
-        <p>Exploring the Future of Technology, Gadgets, and Innovation </p>
-        <p><a class="btn btn-primary btn-lg" role="button">Join the Tech Revolution Today!</a></p>
-    </div>
-</div>
 
-<div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Expert Reviews & Recommendations</h2>
-            <p>Unbiased insights for informed decisions on the best tech products. </p>
-            <p><a class="btn btn-default" href="#" role="button">Explore Top Tech</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Latest Tech News & Insights</h2>
-            <p>Stay updated with breaking news, trends, and analysis from the tech world. </p>
-            <p><a class="btn btn-default" href="#" role="button">Read Tech News</a></p>
-        </div>
-        <div class="col-md-4">
-            <h2>Smart Lifestyle Solutions</h2>
-            <p>Transform your daily life with innovative and connected tech solutions.</p>
-            <p><a class="btn btn-default" href="#" role="button">Upgrade Your Life</a></p>
-        </div>
-    </div>
 
-    <hr>
+
 
     <footer>
         <p>&copy; Ukeme.Us | TechFusion 2023</p>
     </footer>
-</div> <!-- /container -->
+
 
 
 <!-- Bootstrap core JavaScript
