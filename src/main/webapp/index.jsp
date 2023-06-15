@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Web App for Developers</a>
+            <a class="navbar-brand" href="#">TechFusion</a>
         </div>
         <div class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">
@@ -51,9 +51,9 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>Hello</h1>
-        <p>This is from dev branch. </p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+        <h1>Stay Ahead with the Latest Tech Trends and Innovations</h1>
+        <p>Exploring the Future of Technology, Gadgets, and Innovation </p>
+        <p><a class="btn btn-primary btn-lg" role="button">Join the Tech Revolution Today!</a></p>
     </div>
 </div>
 
