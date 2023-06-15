@@ -54,7 +54,7 @@
                                 Remember me
                             </label>
                         </div>
-                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
+                        <button class="w-100 btn btn-lg btn-primary btn-color" type="submit">Sign Up</button>
                         <hr class="my-4">
                         <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
                     </form>
