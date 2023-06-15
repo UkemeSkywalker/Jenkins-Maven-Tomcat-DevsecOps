@@ -23,7 +23,7 @@
 </head>
 
 <body class="d-flex h-100 text-center text-bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div class="cover-container d-flex w-100 h-100 p-md-5 mx-auto flex-column">
         <header class="mb-5">
             <div>
                 <h3 class="float-md-start mb-0">Tech Fusion</h3>
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </main>
-        
+
         <footer class="mt-auto text-white-50">
             <p>"Tech Fusion by" <a href="https://www.ukeme.us/" class="text-white">ukeme.us</a></p>
         </footer>
