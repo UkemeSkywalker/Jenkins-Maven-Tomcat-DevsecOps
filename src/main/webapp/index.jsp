@@ -39,13 +39,13 @@
                     <p class="col-lg-10 fs-4">Stay at the forefront of the rapidly evolving tech landscape with our comprehensive coverage of the latest news, trends, and insights.</p>
                 </div>
                 <div class="col-md-10 mx-auto col-lg-5">
-                    <form class="p-4 p-md-5 border rounded-3 form-glass">
+                    <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control btn-bd" id="floatingInput" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Email Address</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control btn-bd" id="floatingpassowrd" placeholder="password">
+                            <input type="password" class="form-control" id="floatingpassowrd" placeholder="password">
                             <label for="floatingpassowrd">password</label>
                         </div>
                         <div class="checkbox mb-3">

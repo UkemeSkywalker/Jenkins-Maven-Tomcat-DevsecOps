@@ -14,8 +14,8 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.btn-bd{
+.form-control{
     border: 10px solid;
-    border-image: linear-gradient(to right, gold, purple) 1;
+    border-image: linear-gradient(to right, gold, purple) 4;
     border-image-slice: 1;
 }
