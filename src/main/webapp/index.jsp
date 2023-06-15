@@ -36,7 +36,9 @@
             <div class="px-3 bd-masthead" id="content">
                 <h1>Tech Fusion</h1>
                 <p class="lead">Exploring the Future of Technology</p>
-                <p class="lead">Join</p>
+                <p class="lead ">
+                    <a href="/" class="btn btn-lg btn-light fw-bold border-white bg-white"> Join</a>
+                </p>
             </div>
         </main>
     </div>
