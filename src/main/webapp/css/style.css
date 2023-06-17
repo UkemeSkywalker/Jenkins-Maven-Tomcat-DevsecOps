@@ -1,9 +1,9 @@
-/* body{
-    background: linear-gradient(to bottom, #4c147d, #160b2e);
+body{
+    /* background: linear-gradient(to bottom, #4c147d, #160b2e); */
     background-repeat: no-repeat;
     background-image: url("../images/peakpx3.jpg");
     background-size: cover;
-} */
+}
 
 .form-glass{
     background: rgba(255, 255, 255, 0.28);
