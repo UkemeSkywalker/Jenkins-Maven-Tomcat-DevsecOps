@@ -3,6 +3,6 @@
   <jenkinsUrl>https://8080-ukemeskywal-jenkinsmave-okuzqpdmjoq.ws-eu100.gitpod.io/</jenkinsUrl>
   <tool>
     <name>Maven</name>
-    <home>/path/to/maven</home>
+    <home>./maven</home>
   </tool>
 </jenkins.model.JenkinsLocationConfiguration>
