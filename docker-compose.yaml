@@ -1,8 +1,8 @@
 version: '3'
 services:
   jenkins:
-    image: jenkins/jenkins:jdk11
     container_name: jenkins-server
+    image: jenkins/jenkins:jdk11
     volumes:
       - jenkins_data:/var/jenkins_home
     networks:
@@ -10,8 +10,8 @@ services:
     ports:
       - 8080:8080
   tomcat:
+    container_name: tomcat-server
     image: tomcat
-    container_name: 
     volumes:
       - tomcat_webapps:/usr/local/tomcat/webapps
     networks:
