@@ -30,7 +30,7 @@ pipeline {
                     // '''
                     
                     
-                    sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@54.237.225.107:/root/prod/apache-tomcat-9.0.82/webapps/webapp.war'
+                    sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@54.237.225.107:/home/ubuntu/prod/apache-tomcat-9.0.82/webapps/webapp.war'
                 }
             }
         }
